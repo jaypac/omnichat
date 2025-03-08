@@ -10,20 +10,32 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "@tanstack/react-query": "^5.67.2",
+    "@tanstack/react-query-devtools": "^5.67.2",
+    "bootstrap": "^5.3.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-error-boundary": "^5.0.0",
+    "react-hook-form": "^7.54.2",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^15.6.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "@tanstack/eslint-plugin-query": "^5.67.2",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "@vitejs/plugin-react-swc": "^3.8.0",
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
+    "prettier": "3.5.3",
+    "sass": "^1.85.1",
     "typescript": "~5.7.2",
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
-  },
+  }
 }
